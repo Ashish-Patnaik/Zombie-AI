@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: choco;
+    src: url(./font/RioGrande\ Striped.ttf);
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#heading {
+    font-size: 78px;
+    font-weight: 500;
+    color: violet;
+    text-align: center;
+    padding: 20px 0;
+    transition: font-size 0.5s ease, opacity 0.5s ease;
+    font-family: choco;
+}
+
+.chat {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 100px;
+    height: calc(100vh - 180px);
+    position: fixed;
+    
+}
+
+.bot, .user {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.bot span, .user span {
+    margin: 23px;
+    font-weight: 300;
+    font-size: 21px;
+    color: white;
+}
+
+.bac, .pic {
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.message {
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+.message input {
+    width: 80%;
+    font-weight: 500;
+    height: 2rem;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 25px;
+    font-size: 1rem;
+    color: black;
+    background-color: violet;
+}
+
+.message ::placeholder {
+    color: black;
+}
+
+.message button {
+    height: 40px;
+    border: 2px solid black;
+    width: 40px;
+    margin: 2px;
+    padding: 1px;
+    background-color: violet;
+    cursor: pointer;
+}
+
+/* Scrollbar styling */
+.chat::-webkit-scrollbar {
+    width: 8px;
+    position: fixed;
+    right: 0;
+}
+
+.chat::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.chat::-webkit-scrollbar-thumb {
+    background: violet;
+    border-radius: 4px;
+}
+
+.chat::-webkit-scrollbar-thumb:hover {
+    background: #e066e0;
+}
+
+/* Typing indicator */
+.typing-indicator {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.typing-indicator .dots {
+    display: flex;
+    gap: 4px;
+}
+
+.typing-indicator .dot {
+    width: 8px;
+    height: 8px;
+    background-color: violet;
+    border-radius: 50%;
+    animation: bounce 1.4s infinite;
+}
+
+.typing-indicator .dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-indicator .dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+/* Animations */
+@keyframes bounce {
+    0%, 60%, 100% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #heading {
+        font-size: 48px;
+        padding: 10px 0;
+    }
+
+    .chat {
+        top: 90px;
+        height: calc(100vh - 150px);
+    }
+
+    .bot span, .user span {
+        font-size: 18px;
+    }
+
+    .message input {
+        height: 40px;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .message button {
+        height: 40px;
+        width: 40px;
+    }
+
+    .bac, .pic {
+        height: 40px;
+    }
+
+    .bot, .user {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #heading {
+        font-size: 36px;
+    }
+
+    .chat {
+        top: 70px;
+        height: calc(100vh - 130px);
+    }
+
+    .bot span, .user span {
+        font-size: 16px;
+    }
+
+    .message input {
+        height: 35px;
+        font-size: 0.8rem;
+    }
+
+    .message button {
+        height: 35px;
+        width: 35px;
+    }
+
+    .bac, .pic {
+        height: 30px;
+    }
+
+    .chat {
+        padding-bottom: 40px;
+    }
+}

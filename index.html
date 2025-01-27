@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombie AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=send" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat">
+        <h1 id="heading">Zombie AI</h1> <!-- Add this line -->
+        <!-- Initial bot greeting -->
+        <div class="bot">
+            <img class="bac" src="zombie.png" alt="Bot Avatar">
+            <span>Hello survivor!!!</span>
+        </div>
+        
+        <!-- Loading indicator template (initially hidden) -->
+        <div class="bot typing-indicator" style="display: none;">
+            <img class="bac" src="zombie.png" alt="Bot Avatar">
+            <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+        
+            </div>
+        </div>
+    </div>
+
+    <div id="container">
+        <div class="message">
+            <input type="text" placeholder="Type a message...">
+            <button>
+                <span class="material-symbols-outlined">send</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Particles background -->
+    <div id="particles-js"></div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
