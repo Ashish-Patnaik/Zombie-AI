@@ -2,11 +2,12 @@
 
 Welcome to **Zombie AI**, the chatbot that brings the undead to life! Powered by the **Gemini API**, Zombie AI is a responsive, interactive, and slightly spooky chatbot that’s perfect for entertainment, learning, or just having fun. Whether you're on your desktop or mobile, Zombie AI is ready to chat with you anytime, anywhere.
 
-🌐 **Live Demo**: [Zombie AI on Vercel](https://your-vercel-app-link.vercel.app)  
+🌐 **Live Demo**: [Zombie AI on Vercel](https://zombie-ai.vercel.app/)  
 📜 **License**: MIT License  
 💻 **Tech Stack**: HTML, CSS, JavaScript, Gemini API  
 
-![Zombie AI Demo](demo.gif) <!-- Add a demo GIF or screenshot here -->
+![Zombie AI Demo](![chatbot](https://github.com/user-attachments/assets/0779ab74-f4ad-4a19-893b-5616cba1f23f)
+) <!-- Add a demo GIF or screenshot here -->
 
 ---
 
@@ -24,7 +25,7 @@ Welcome to **Zombie AI**, the chatbot that brings the undead to life! Powered by
 ## Live Demo 🚀
 
 Experience Zombie AI in action! Check out the live demo deployed on **Vercel**:  
-👉 [Zombie AI Live Demo](https://your-vercel-app-link.vercel.app)
+👉 [Zombie AI Live Demo]
 
 ---
 
@@ -47,8 +48,10 @@ Experience Zombie AI in action! Check out the live demo deployed on **Vercel**:
 
 ## Screenshots 📸
 
-![Desktop View](screenshots/desktop.png) <!-- Add screenshot paths -->
-![Mobile View](screenshots/mobile.png)
+![Desktop View](![chatbot](https://github.com/user-attachments/assets/f0090c94-8c39-462a-af54-1f0d97d108cf)
+) <!-- Add screenshot paths -->
+![Mobile View](![chat bot phone](https://github.com/user-attachments/assets/12dde464-55a1-443c-bcbc-1006411764a1)
+)
 
 ---
 
@@ -80,14 +83,4 @@ If you enjoy using Zombie AI, consider supporting the project by:
 
 ---
 
-## Contact 📧
-
-Have questions, suggestions, or just want to say hi? Feel free to reach out!  
-
-- **Email**: your-email@example.com  
-- **GitHub**: [your-username](https://github.com/your-username)  
-- **Twitter**: [@your-handle](#)  
-
----
-
-Made with ❤️ by [Your Name](https://github.com/your-username). Let's build something awesome together!  
+Made with ❤️ by [Ashish Patnaik](https://github.com/Ashish-Patnaik). Let's build something awesome together!  
