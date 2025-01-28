@@ -6,8 +6,8 @@ Welcome to **Zombie AI**, the chatbot that brings the undead to life! Powered by
 📜 **License**: MIT License  
 💻 **Tech Stack**: HTML, CSS, JavaScript, Gemini API  
 
-![Zombie AI Demo](![chatbot](https://github.com/user-attachments/assets/0779ab74-f4ad-4a19-893b-5616cba1f23f)
-) <!-- Add a demo GIF or screenshot here -->
+![chatbot](https://github.com/user-attachments/assets/0779ab74-f4ad-4a19-893b-5616cba1f23f)
+ <!-- Add a demo GIF or screenshot here -->
 
 ---
 
@@ -26,6 +26,8 @@ Welcome to **Zombie AI**, the chatbot that brings the undead to life! Powered by
 
 Experience Zombie AI in action! Check out the live demo deployed on **Vercel**:  
 👉 [Zombie AI Live Demo]
+
+
 
 ---
 
