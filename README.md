@@ -25,7 +25,11 @@ Welcome to **Zombie AI**, the chatbot that brings the undead to life! Powered by
 ## Live Demo 🚀
 
 Experience Zombie AI in action! Check out the live demo deployed on **Vercel**:  
-👉 [Zombie AI Live Demo]
+👉 [Zombie AI Live Demo][ 
+
+https://github.com/user-attachments/assets/16c8a263-0417-49a9-bed6-3fe32e0c7bd7
+
+]
 
 
 
@@ -50,10 +54,12 @@ Experience Zombie AI in action! Check out the live demo deployed on **Vercel**:
 
 ## Screenshots 📸
 
-![Desktop View](![chatbot](https://github.com/user-attachments/assets/f0090c94-8c39-462a-af54-1f0d97d108cf)
-) <!-- Add screenshot paths -->
-![Mobile View](![chat bot phone](https://github.com/user-attachments/assets/12dde464-55a1-443c-bcbc-1006411764a1)
-)
+# Desktop View
+![chatbot](https://github.com/user-attachments/assets/0d2b1e31-4609-485f-8d80-1decad34d25c)
+
+# Mobile View
+![chat bot phone](https://github.com/user-attachments/assets/59bb42b6-d9f7-4ac5-b106-e885b1bd5486)
+
 
 ---
 
